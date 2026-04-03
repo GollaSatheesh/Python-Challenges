@@ -1,0 +1,7 @@
+exampleset1=set(range(1,16))
+exampleset2=set(range(7,16))
+print(exampleset1-exampleset2)
+print(exampleset1.difference(exampleset2))
+print('#####################################')
+print(exampleset2-exampleset1)
+print(exampleset2.difference(exampleset1))
